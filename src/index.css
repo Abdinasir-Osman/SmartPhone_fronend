@@ -1,0 +1,34 @@
+/* ✅ 1️⃣ Import Google Fonts marka hore */
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap');
+
+/* ✅ 2️⃣ Markaas Tailwind base, components, utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ 3️⃣ Custom CSS */
+body {
+  @apply font-segoe bg-light text-dark dark:bg-dark dark:text-light antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-segoe;
+}
+
+p, span, a, li {
+  @apply font-segoe;
+}
+
+.custom-toast-mobile-margin {
+  margin-top: 0.5rem;
+}
+@media (max-width: 640px) {
+  .custom-toast-mobile-margin {
+    margin-top: 2.5rem;           
+    margin-left: 1rem;            
+    margin-right: 1rem;            
+    padding: 0.75rem 1rem;        
+    border-radius: 1rem;       
+    max-width: 90vw;              
+  }
+}
