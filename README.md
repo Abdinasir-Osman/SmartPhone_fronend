@@ -1,12 +1,11 @@
 # SmartPhone Frontend Project
 
-A comprehensive e-commerce platform for smartphone sales with multi-role user management, built with React and Flutter.
+A comprehensive e-commerce platform for smartphone sales with multi-role user management, built with React.
 
 ## 🚀 Features
 
-### 📱 Multi-Platform Support
-- **Web Application**: React-based frontend with modern UI/UX
-- **Mobile Application**: Flutter-based cross-platform mobile app
+### 📱 Web Application
+- **React-based Frontend**: Modern UI/UX with responsive design
 - **Responsive Design**: Works seamlessly across desktop, tablet, and mobile devices
 
 ### 👥 Multi-Role User System
@@ -42,11 +41,6 @@ A comprehensive e-commerce platform for smartphone sales with multi-role user ma
 - **React Router**: Client-side routing
 - **Context API**: State management
 
-### Mobile App
-- **Flutter**: Cross-platform mobile development
-- **Dart**: Programming language
-- **Material Design**: UI components
-
 ### Development Tools
 - **PostCSS**: CSS processing
 - **ESLint**: Code linting
@@ -67,18 +61,6 @@ xaliye-phones-frontend-full-ready/
 │   ├── layouts/         # Layout components
 │   ├── routes/          # Routing configuration
 │   └── utils/           # Utility functions
-├── xaliye_application/  # Flutter mobile app
-│   ├── lib/
-│   │   ├── admin/       # Admin mobile features
-│   │   ├── super/       # Super admin mobile features
-│   │   ├── users/       # User mobile features
-│   │   ├── pages/       # Mobile app pages
-│   │   ├── services/    # API services
-│   │   ├── models/      # Data models
-│   │   └── widgets/     # Reusable widgets
-│   ├── android/         # Android-specific files
-│   ├── ios/             # iOS-specific files
-│   └── web/             # Web platform files
 ├── public/              # Static assets
 └── package.json         # Dependencies and scripts
 ```
@@ -88,7 +70,6 @@ xaliye-phones-frontend-full-ready/
 ### Prerequisites
 - Node.js (v16 or higher)
 - npm or yarn
-- Flutter SDK (for mobile development)
 - Git
 
 ### Installation
@@ -99,7 +80,7 @@ xaliye-phones-frontend-full-ready/
    cd SmartPhone_fronend
    ```
 
-2. **Install web dependencies**
+2. **Install dependencies**
    ```bash
    npm install
    ```
@@ -107,13 +88,6 @@ xaliye-phones-frontend-full-ready/
 3. **Start the development server**
    ```bash
    npm run dev
-   ```
-
-4. **For mobile development**
-   ```bash
-   cd xaliye_application
-   flutter pub get
-   flutter run
    ```
 
 ## 📱 Available Scripts
@@ -131,9 +105,6 @@ Create a `.env` file in the root directory:
 VITE_API_URL=your_api_endpoint
 VITE_GOOGLE_CLIENT_ID=your_google_oauth_client_id
 ```
-
-### Flutter Configuration
-Update `xaliye_application/pubspec.yaml` with your dependencies and configurations.
 
 ## 👥 User Roles & Permissions
 
@@ -187,13 +158,6 @@ The application integrates with backend APIs for:
 - Payment processing
 - Analytics and reporting
 
-## 📱 Mobile App Features
-
-- **Cross-platform**: Works on iOS and Android
-- **Offline Support**: Basic functionality without internet
-- **Push Notifications**: Order updates and promotions
-- **Native Performance**: Optimized for mobile devices
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -214,7 +178,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - React team for the amazing framework
-- Flutter team for cross-platform development
 - Tailwind CSS for the utility-first approach
 - All contributors and supporters
 
